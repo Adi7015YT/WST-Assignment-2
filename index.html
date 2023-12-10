@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pro Edu</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media (max-width: 768px) {
+      .hidden-mobile {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <div class="bg-white flex flex-col items-center pt-12">
     <div
@@ -337,7 +344,7 @@
         See More Courses
       </div>
       <div
-        class="bg-slate-50 self-stretch mt-64 pr-16 rounded-md max-md:max-w-full max-md:mt-10 max-md:pr-5"
+        class="hidden-mobile" class="bg-slate-50 self-stretch mt-64 pr-16 rounded-md max-md:max-w-full max-md:mt-10 max-md:pr-5"
       >
         <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div
@@ -517,7 +524,7 @@
         View All
       </div>
       <div
-        class="text-stone-900 text-center text-5xl font-semibold leading-[60px] self-center whitespace-nowrap mt-36 max-md:max-w-full max-md:text-4xl max-md:leading-[59px] max-md:mt-10"
+        class="text-stone-900 text-center text-5xl font-semibold leading-[60px] self-center max-w-[549px] mt-32 max-md:max-w-full max-md:text-4xl max-md:leading-[59px] max-md:mt-10"
       >
         Some Students Feedback
       </div>
@@ -612,7 +619,7 @@
         </div>
       </div>
       <div
-        class="text-stone-900 text-center text-5xl font-semibold leading-[60px] self-center whitespace-nowrap mt-44 max-md:max-w-full max-md:text-4xl max-md:leading-[59px] max-md:mt-10"
+        class="text-center text-5xl font-semibold leading-[60px] self-center max-w-[549px] mt-32 max-md:max-w-full max-md:text-4xl max-md:leading-[59px] max-md:mt-10"
       >
         Trusted by over 800+ companies
       </div>
