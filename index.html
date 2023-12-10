@@ -5,13 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pro Edu</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    @media (max-width: 768px) {
-      .hidden-mobile {
-        display: none;
-      }
-    }
-  </style>
 </head>
 <div class="bg-white flex flex-col items-center pt-12">
     <div
@@ -344,7 +337,7 @@
         See More Courses
       </div>
       <div
-        class="hidden-mobile" class="bg-slate-50 self-stretch mt-64 pr-16 rounded-md max-md:max-w-full max-md:mt-10 max-md:pr-5"
+        class="bg-slate-50 self-stretch mt-64 pr-16 rounded-md max-md:max-w-full max-md:mt-10 max-md:pr-5 [@media(max-width:768px)]:hidden"
       >
         <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div
